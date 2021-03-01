@@ -1,4 +1,5 @@
+const countLines = require('./countLines.js')
+const read = require('./read.js')
+const countlines = require('./countlines')
 
-const random = require('./random')
-const max = Number(process.argv[2])
-console.log(random(max))
+countlines('hello.js')
